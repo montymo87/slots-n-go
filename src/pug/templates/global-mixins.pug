@@ -1,4 +1,8 @@
 mixin head(array)
+	link(rel="stylesheet" href="https://start.slotsngo.io/in.start/public/bundle.css?v=1.003")
+	//- link(rel="stylesheet" href="https://start.slotsngo.io/in.start/public/fonts/icomoon.ttf" type="font/ttf")
+
+
 	meta(charset='UTF-8')
 	title!= environment === 'development' ? `${environment} | ${array.title_inner}` : array.title_inner
 	meta(
